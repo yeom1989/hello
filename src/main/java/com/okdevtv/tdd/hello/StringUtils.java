@@ -4,11 +4,13 @@ import java.text.NumberFormat;
 
 public class StringUtils {
 	
+	StringUtils() {
+	    throw new IllegalStateException("Utility class");
+	}
+	
 	public static String comma(int number) {
 		NumberFormat numberFormat = NumberFormat.getInstance();
-		String str = numberFormat.format(number);
-
-		return str;
+		return numberFormat.format(number);
 	}
 	
 }
