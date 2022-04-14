@@ -3,7 +3,8 @@ package com.okdevtv.tdd.hello;
 public class HelloWorld {
 
 	public String getMessage() {
-		return getMessage("World");
+		//return getMessage("World");
+		return "World";
 	}
 
 	public String getMessage(String name) {
