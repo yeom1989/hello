@@ -15,6 +15,7 @@ public class HelloWorldTest {
 		hello = new HelloWorld();
 	}
 	
+	
 	@Test
 	public void test() {
 		String msg = hello.getMessage();
